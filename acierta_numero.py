@@ -1,5 +1,5 @@
 import random
-def acierta_numero():
+def aciertaNumero():
     numero = random.randint(1,100)
     intentos = 0
     while True:
@@ -21,4 +21,4 @@ def acierta_numero():
             print(f"Has acertado!! Enhorabuena, solo te ha costado {intentos} intentos")
             return
 
-acierta_numero()
+aciertaNumero()
