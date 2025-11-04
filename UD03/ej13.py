@@ -1,3 +1,6 @@
+"""
+Escriba un programa que lea dos números y lo visualiza en orden ascendente  
+"""
 x = int(input("Introduce un numero: "))
 y = int(input("Introduce otro numero: "))
 

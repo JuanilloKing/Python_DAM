@@ -1,3 +1,6 @@
+"""
+Escriba un programa que pida un número entre 0 y 99999, y que diga cuantas cifras tiene    
+"""
 try:
     entrada = int(
         (input("Introduce un numero entre 0 y 999.999 y te diré las cifras que tiene: ")))

@@ -1,3 +1,6 @@
+"""
+Escriba un programa que lea dos números y nos diga cual es mayor o si son iguales    
+"""
 x = int(input("Introduce un numero: "))
 y = int(input("Introduce otro numero: "))
 

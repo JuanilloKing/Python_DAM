@@ -1,3 +1,8 @@
+"""
+Escriba un programa que lea dos números, calcule y muestre el valor de sus suma, resta,
+producto y división (Ten en cuenta la división por cero).    
+"""
+
 x = int(input("Introduce un numero: "))
 y = int(input("Introduce otro numero: "))
 

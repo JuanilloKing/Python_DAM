@@ -1,5 +1,6 @@
 """
-    hola
+Escriba un programa que dado el precio de un artículo y el precio de venta real nos muestre
+el porcentaje de descuento realizado.
 """
 precio_articulo = float(input("Dime precio articulo real: "))
 precio_venta = float(input("Precio de venta: "))

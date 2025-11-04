@@ -1,3 +1,7 @@
+"""
+Escriba un programa que lee dos números y muestra el mayor
+"""
+
 x = int(input("Introduce un numero: "))
 y = int(input("Introduce otro numero: "))
 

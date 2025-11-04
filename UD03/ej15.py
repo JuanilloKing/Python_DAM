@@ -1,3 +1,8 @@
+"""
+Escriba un programa que lea tres números y nos diga cual es mayor, cual menor y cuales
+son iguales    
+"""
+
 x = int(input("Introduce el primer número: "))
 y = int(input("Introduce el segundo número: "))
 z = int(input("Introduce el tercer número: "))
