@@ -8,7 +8,7 @@ Si ningún dado se obtiene seis, mostrar el mensaje “Pésimo”
 """
 import random
 aciertos = 0
-for _ in range(1, 3):
+for _ in range(1, 4):
     dado = random.randint(1, 6)
     if dado == 6:
         aciertos += 1
