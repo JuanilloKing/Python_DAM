@@ -9,9 +9,9 @@ flag = True
 num = 50
 
 while flag:
-    pregunta = input(f"Tu numero es {num} ? [SI/MENOR/MAYOR]")
-    if pregunta.upper == "SI":
-        print("ACERTE!")
+    pregunta = input(f"Tu numero es {num} ? [SI/MENOR/MAYOR]: ").upper()
+    if pregunta == "SI":
+        print("ACERTASTE!")
         flag = False
     if pregunta == "MENOR":
         num -= 1
