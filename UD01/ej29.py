@@ -10,7 +10,7 @@ num = 50
 
 while flag:
     pregunta = input(f"Tu numero es {num} ? [SI/MENOR/MAYOR]")
-    if pregunta == "SI":
+    if pregunta.upper == "SI":
         print("ACERTE!")
         flag = False
     if pregunta == "MENOR":
