@@ -1,0 +1,10 @@
+"""
+Programa que muestre en líneas separadas lo siguiente:
+ZYWXVUTSRQPONMLKJIHGFEDCBA, YWXVUTSRQPONMLKJIHGFEDCBA,
+WXVUTSRQPONMLKJIHGFEDCBA, ...., DCBA, CBA, BA, A.    
+"""
+
+separar = "ZYWXVUTSRQPONMLKJIHGFEDCBA, YWXVUTSRQPONMLKJIHGFEDCBA,WXVUTSRQPONMLKJIHGFEDCBA, ...., DCBA, CBA, BA, A"
+
+for i in separar.split(","):
+    print(i)

@@ -7,8 +7,8 @@ def palindromo(frase):
     frase_trimeada = frase.lower().replace(" ", "")
     f = -1
     es_palindromo = True
-    for palabra in list(frase_trimeada):
-        if palabra != list(frase_trimeada)[f]:
+    for palabra in frase_trimeada:
+        if palabra != frase_trimeada[f]:
             es_palindromo = False
             break
         f -= 1
