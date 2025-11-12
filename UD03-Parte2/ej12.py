@@ -7,7 +7,7 @@ n = int(input("Introduce de cuanta altura quieres la escalera de numeros:"))
 acc = 1
 while acc <= n:
     for i in range(1, acc + 1):  
-        print(i, end="")
+        print(acc, end="")
         if i == acc:
           print(" ")
     acc += 1
