@@ -7,8 +7,7 @@ empezando en uno y acabando en el numero de la línea. Este es un ejemplo, si in
 n = int(input("Introduce de cuanta altura quieres la escalera de numeros:"))
 acc = 1
 while acc <= n:
-    for i in range(1, acc + 1):  
+    for i in range(1, acc + 1):
         print(i, end="")
-        if i == acc:
-          print(" ")
+    print()
     acc += 1
